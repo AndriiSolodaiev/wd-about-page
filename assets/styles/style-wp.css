@@ -1,0 +1,37 @@
+.news-plagination-current {
+  cursor: pointer;
+}
+
+
+.lang-arrow {
+  transition: none;
+}
+.lang-block {
+  transition: none;
+}
+.lang-block li {
+  transition: none;
+}
+
+@media screen and (min-width: 1025px){
+  .lang-block a {
+    pointer-events: all;
+  }
+}
+.lang-block li.active a {
+  pointer-events: none;
+}
+
+
+.project-slide-status {
+  transition: .5s ease-out;
+  z-index: 4;
+}
+
+body {
+  outline: none;
+}
+
+.page__inner {
+  overflow: hidden;
+}
